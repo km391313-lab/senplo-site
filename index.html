@@ -389,7 +389,7 @@ textarea.input:focus{border-color:var(--water)}
         <p class="eyebrow">Get in touch</p>
         <h2>Know when to change your filter.</h2>
         <p class="contact__sub">필터 관리, 실증 참여, 협업 제안까지 편하게 남겨 주세요.</p>
-        <a class="contact__mail" href="mailto:km391313@gmail.com">km391313@gmail.com</a>
+        <a class="contact__mail" href="mailto:contact@senplo.kr">contact@senplo.kr</a>
       </div>
 
       <form class="form" id="contactForm" novalidate>
@@ -442,7 +442,7 @@ textarea.input:focus{border-color:var(--water)}
 <footer class="footer">
   <div class="wrap">
     <div class="footer__row">
-      <span>센플로 · 대표 신효진 · km391313@gmail.com</span>
+      <span>센플로 · 대표 신효진 · contact@senplo.kr</span>
       <div class="footer__links">
         <a href="#contact">Email</a>
         <a href="https://www.instagram.com/senplo.water/" target="_blank" rel="noopener">Instagram</a>
@@ -473,11 +473,11 @@ btn.addEventListener('click', () => { const open = nav.dataset.open !== 'true'; 
 nav.addEventListener('click', e => { if (e.target.tagName === 'A' && window.innerWidth <= 820) { nav.dataset.open = 'false'; btn.setAttribute('aria-expanded', 'false'); btn.textContent = 'MENU'; } });
 
 /* ── 문의 양식 ──
-   WEB3FORMS_KEY 를 넣으면: 방문자가 「문의 보내기」만 누르면 메일함(km391313@gmail.com)으로 바로 도착합니다.
+   WEB3FORMS_KEY 를 넣으면: 방문자가 「문의 보내기」만 누르면 등록된 메일함으로 바로 도착합니다.
    비워 두면: Gmail 작성 창(새 탭)이 내용이 채워진 채로 열립니다. 방문자가 「보내기」를 한 번 더 눌러야 합니다.
    키 발급: https://web3forms.com → 받을 메일 주소 입력 → 메일로 온 Access Key 를 아래에 붙여넣기 */
-const WEB3FORMS_KEY = '23782446-58d4-405e-a5e0-92f2075c6b1a'; // 센플로 홈페이지 문의 (Web3Forms, 받는 메일 km391313@gmail.com)
-const TO = 'km391313@gmail.com';
+const WEB3FORMS_KEY = '23782446-58d4-405e-a5e0-92f2075c6b1a'; // 센플로 홈페이지 문의 (Web3Forms — 받는 메일은 Web3Forms 계정 설정)
+const TO = 'contact@senplo.kr';
 
 const form = document.getElementById('contactForm');
 const box = document.getElementById('f-msg-box');
